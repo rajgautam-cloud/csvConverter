@@ -3,25 +3,38 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vh;
   pointer-events: none;
+  width: 30vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  padding: 20px;
+  cursor: pointer;
 }
-
+.button {
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-top: 10vh;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 5vh;
 }
 
 .App-link {
